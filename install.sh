@@ -10,7 +10,7 @@ read install_dir
 
 
 sudo apt-get update
-sudo apt-get install lamp-server^ libcurl3 php7.0-curl php7.0-gd php7.0-mcrypt php-mbstring php-zip php-dom
+sudo apt-get install lamp-server^ libcurl3 php7.0-curl php7.0-gd php7.0-mcrypt php-mbstring php-zip php-dom php-intl
 
 sudo curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
