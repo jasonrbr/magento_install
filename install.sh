@@ -79,8 +79,7 @@ echo ""
 echo "Begin installation"
 
 sudo git clone -b 2.0.6 https://github.com/magento/magento2.git $install_dir
-cd $install_dir
-sudo composer install
+sudo composer install -d $install_dir
 sudo chown -R $mage_user:www-data $install_dir
 sudo chmod g+ws -R $install_dir
 sudo chmod u+x $install_dir/bin/magento
